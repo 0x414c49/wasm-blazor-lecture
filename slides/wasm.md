@@ -56,3 +56,28 @@ https://github.com/0x414c49/wasm-blazor-lecture
 
 * Execute at native speed!
 * The binary format is encoded in size and load-time efficient.
+
+# Safe
+
+* Memory Safe!
+* Runs inside a sandbox
+* It follows rules from JavaScript like same-origin and permissions.
+
+# Open and debuggable
+
+* Designed to be pretty-printed in a textual format
+* The textual format will be used when viewing the source of Wasm modules (like source-maps)
+
+---
+# Part of the open web platform
+
+* It's a web standard!
+
+---
+# Some sample of web-assembly
+
+An astroid game written in RUST
+https://m1el.github.io/wasm-asteroids/demo/demo.html
+
+Funky Kards - A racing game written in CPP
+https://www.funkykarts.rocks/demo.html
