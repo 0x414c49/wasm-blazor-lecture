@@ -1,0 +1,7 @@
+blockquote {  
+    margin: 0;
+    padding-left: 1.4rem;
+    border-left: 4px solid #dadada;
+
+    color: grey;
+}
