@@ -81,3 +81,39 @@ https://m1el.github.io/wasm-asteroids/demo/demo.html
 
 Funky Kards - A racing game written in CPP
 https://www.funkykarts.rocks/demo.html
+
+
+---
+# Blazor
+
+- Almost two years ago, Mono team created `mono-wasm` as the `.NET runtime` on WebAssembly.
+--
+
+- https://www.mono-project.com/news/2018/01/16/mono-static-webassembly-compilation/
+
+```
+$ cat hello.cs
+class Hello {
+  static int Main(string[] args) {
+    System.Console.WriteLine("hello world!");
+    return 0;
+  }
+}
+$ mcs -nostdlib -noconfig -r:../../dist/lib/mscorlib.dll hello.cs -out:hello.exe
+$ mono-wasm -i hello.exe -o output
+$ ls output
+hello.exe        index.html        index.js        index.wasm        mscorlib.dll
+```
+---
+# Blazor
+
+- At first, the project was a just prof of concept.
+--
+
+- Then Steve Sanderson (The guy behind's Knockout.JS) create an excrement project called Blazor.
+--
+
+- Blazor = Browser + Razor
+--
+
+adasd
