@@ -3,17 +3,16 @@ using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Text;
-using WebAssembly;
-using WebAssembly.Net.Http.HttpClient;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
 public class Codes
 {
-    public static void Main()
+    public async static Task Main()
     {
-        Console.WriteLine(Run());        
+        Console.WriteLine(await Run());        
     }
+
     private static void GenerateGuids()
     {
         for (var i = 0; i < 10000; i++)
@@ -62,7 +61,7 @@ public class Codes
         var times = 3;
         var sb = new StringBuilder();
 
-        sb.AppendLine($"Running method for {times}: times");
+        sb.AppendLine($"Running method for {times} times:");
 
         var sortBenchmark = Benchmark( () => Sort(), times);
 
