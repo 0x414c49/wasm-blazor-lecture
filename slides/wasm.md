@@ -82,6 +82,7 @@ https://m1el.github.io/wasm-asteroids/demo/demo.html
 Funky Kards - A racing game written in CPP
 https://www.funkykarts.rocks/demo.html
 
+---
 # Why to use WebAssembly?
 
 * Runnig in browser means you don't need to care what system it runs on.
@@ -94,7 +95,7 @@ https://www.funkykarts.rocks/demo.html
 * Another use case is compiling existing applications to run on the browser. For example, it could be used to compile tools like Photoshop or AutoCAD to run in the browser.
 * Useful for games and game engines, 3D viewers, computationally expensive dataVis, video players. Doom 3 Engine (http://www.continuation-labs.com/projects/d3wasm/)
 
-
+---
 # Performance
 
 ![Wasm Logo](images/benchmarks-everywhere.jpg)
