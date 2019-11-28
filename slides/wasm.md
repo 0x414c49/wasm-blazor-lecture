@@ -98,7 +98,21 @@ https://www.funkykarts.rocks/demo.html
 ---
 # Performance
 
-![Wasm Logo](images/benchmarks-everywhere.jpg)
+![](images/benchmarks-everywhere.jpg)
+
+---
+
+- PDF Generation
+<img src="images/pdf_generation_benchmark.png" width="700" height="400" />
+
+---
+- Primes and Multiplication
+
+<img src="images/get_primes_benchmark.png" width="700" height="250" />
+<img src="images/multiplication_benchmark.png" width="700" height="250" />
+---
+- Wasm Runtimes vs Native Rust
+<img src="images/native_benchmark.png" width="700" height="450" />
 
 ---
 # Blazor
