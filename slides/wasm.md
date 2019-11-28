@@ -82,6 +82,22 @@ https://m1el.github.io/wasm-asteroids/demo/demo.html
 Funky Kards - A racing game written in CPP
 https://www.funkykarts.rocks/demo.html
 
+# Why to use WebAssembly?
+
+* Runnig in browser means you don't need to care what system it runs on.
+* Getting people to install an app is actually a pretty significant obstacle to adoption.
+* There are certain crypto operations that run considerably faster in optimized rust than in browser JS.
+* JS is actually pretty performant for I/O bound operations, but not ideal for CPU bound operations. WASM let's you use JS for I/O and compiled languages for computation.
+* Web Assembly will be much simpler to support than JS is.
+* Some of the most common uses for WebAssembly are going to be image and video editing. Processing video, in particular, can be quite taxing and intensive. 
+* Virtual and Augmented reality applications that require very low latency will benefit from WebAssembly.
+* Another use case is compiling existing applications to run on the browser. For example, it could be used to compile tools like Photoshop or AutoCAD to run in the browser.
+* Useful for games and game engines, 3D viewers, computationally expensive dataVis, video players. Doom 3 Engine (http://www.continuation-labs.com/projects/d3wasm/)
+
+
+# Performance
+
+![Wasm Logo](images/benchmarks-everywhere.jpg)
 
 ---
 # Blazor
